@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/main-logo.png'
 import {Link} from 'react-scroll'
+import CV from '../assets/ROBERT-KIBUE-CV.pdf'
 
 
 const Navbar = () => {
@@ -60,7 +61,7 @@ const Navbar = () => {
 
 <li className='w-[160px] h-[60px] flex justify-center items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600'>
         <a className='flex items-center justify-between w-full text-gray-300' 
-        href="/"> Resume <BsFillPersonLinesFill size={30}/></a></li>
+        href={CV} download={"Robert_CV"}> Download CV <BsFillPersonLinesFill size={30}/></a></li>
 </ul>
 
        </div>
